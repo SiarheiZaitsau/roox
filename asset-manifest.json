@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/roox/static/css/main.3b2b0050.css",
-    "main.js": "/roox/static/js/main.bf1907a1.js",
+    "main.js": "/roox/static/js/main.e02a7eaa.js",
     "index.html": "/roox/index.html",
     "main.3b2b0050.css.map": "/roox/static/css/main.3b2b0050.css.map",
-    "main.bf1907a1.js.map": "/roox/static/js/main.bf1907a1.js.map"
+    "main.e02a7eaa.js.map": "/roox/static/js/main.e02a7eaa.js.map"
   },
   "entrypoints": [
     "static/css/main.3b2b0050.css",
-    "static/js/main.bf1907a1.js"
+    "static/js/main.e02a7eaa.js"
   ]
 }
