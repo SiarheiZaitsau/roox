@@ -17,7 +17,7 @@ const Users = () => {
       .then((res) => {
         setUsers(res.data);
       })
-      .finally(() => setIsLoading(true));
+      .finally(() => setIsLoading(false));
   };
 
   useEffect(() => {
