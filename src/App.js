@@ -6,8 +6,8 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route exact path={process.env.PUBLIC_URL + "/"} element={<Users />} />
-        <Route path={process.env.PUBLIC_URL + "/user/:id"} element={<UserProfile />} />
+        <Route exact path="/" element={<Users />} />
+        <Route path="/user/:id" element={<UserProfile />} />
       </Routes>
     </div>
   );
