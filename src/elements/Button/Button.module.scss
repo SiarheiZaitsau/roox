@@ -1,0 +1,21 @@
+.button {
+  background: #4b51ef;
+  border-radius: 5px;
+  padding: 5px 15px;
+  color: #fff;
+  transition: background 0.2s ease;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  display: inline-block;
+  cursor: pointer;
+  width: fit-content;
+  min-width: 50px;
+  &:disabled {
+    background: #afafaf;
+  }
+}
+.secondary {
+  background: #52cf4f;
+}

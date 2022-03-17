@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+}
+.users {
+  padding-left: 31px;
+  padding-top: 19px;
+  padding-bottom: 25px;
+}
+.users__title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: left;
+  margin-bottom: 17px;
+}
+.users__list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-bottom: 10px;
+}
+.users__description {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: right;
+  color: #000;
+}
+.loader {
+}
+.loader__container {
+  display: flex;
+  height: 100%;
+  position: relative;
+}
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(calc(-50% - 91px), -50%);
+}

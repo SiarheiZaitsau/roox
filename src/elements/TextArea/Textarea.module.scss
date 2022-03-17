@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.textArea {
+  width: 211px;
+  height: 55px;
+  padding: 5px 10px;
+  resize: none;
+  outline: none;
+  font-family: Roboto;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  text-align: left;
+  border: 1px solid #d8d8d8;
+  border-radius: 5px;
+  &:disabled {
+    background: #fff;
+  }
+  &::placeholder {
+    color: #d8d8d8;
+  }
+  &:focus {
+    border: 1px solid #000;
+  }
+  &:disabled {
+    background: #000 0.3;
+  }
+}

@@ -1,0 +1,49 @@
+.userCard__container {
+  width: 420px;
+  border-radius: 8px;
+  background-color: #f3f3f3;
+  margin-bottom: 14px;
+  justify-content: flex-start;
+  padding: 10px;
+  position: relative;
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+.userCard__fields {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.userCard__fieldName {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 13px;
+  margin-right: 7px;
+  color: #a3a3a3;
+}
+.userCard__field {
+  display: flex;
+  margin-bottom: 8px;
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+.userCard__fieldValue {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 13px;
+  text-align: left;
+}
+.userCard__link {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  color: #4b51ef;
+  cursor: pointer;
+  text-decoration: none;
+}
